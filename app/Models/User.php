@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeDelivery;
+namespace CodeDelivery\Models;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
