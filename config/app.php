@@ -148,6 +148,10 @@ return [
         CodeDelivery\Providers\AuthServiceProvider::class,
         CodeDelivery\Providers\EventServiceProvider::class,
         CodeDelivery\Providers\RouteServiceProvider::class,
+        /*
+         * Provider para a instanciacao das interfaces de Repository
+         */
+        CodeDelivery\Providers\RepositoryServiceProvider::class,
 
     ],
 
